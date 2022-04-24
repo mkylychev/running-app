@@ -14,4 +14,8 @@ class OnBoardingFragment: BaseFragment<FragmentOnBoardingBinding>() {
         get() = FragmentOnBoardingBinding::inflate
 
 
+
+    companion object {
+        const val DEEP_LINK = "appnav://on_boarding"
+    }
 }
