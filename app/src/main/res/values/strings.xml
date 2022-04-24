@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Ghasla</string>
+
+    <!-- Dialog -->
+    <string name="dialog_titleWhoops">Whoops</string>
+    <string name="dialog_buttonOk">OK</string>
+    <string name="dialog_buttonGotIt">Got it!</string>
+    <string name="dialog_buttonCancel">Cancel</string>
+    <string name="dialog_buttonDelete">Delete</string>
+    <string name="dialog_buttonLogout">Logout</string>
+    <string name="dialog_buttonStay">Stay</string>
+    <string name="dialog_buttonLeave">Leave</string>
+    <string name="dialog_buttonUpdate">Update</string>
+    <string name="dialog_buttonLater">Later</string>
 </resources>

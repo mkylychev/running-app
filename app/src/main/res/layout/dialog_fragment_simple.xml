@@ -68,7 +68,7 @@
         android:insetRight="18dp"
         android:minWidth="0dp"
         android:textAllCaps="false"
-        android:textColor="@color/orange"
+        android:textColor="@color/blue"
         android:textSize="13sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"

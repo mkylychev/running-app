@@ -7,11 +7,10 @@ import android.view.ViewGroup
 import android.view.WindowManager
 import androidx.annotation.ColorRes
 import androidx.core.view.isVisible
+import com.app_ghasla.R
+import com.app_ghasla.common.constant.emptyString
+import com.app_ghasla.common.extension.getColor
 import com.app_ghasla.databinding.DialogFragmentSimpleBinding
-import com.app_microrec.R
-import com.app_microrec.common.constant.emptyString
-import com.app_microrec.common.extension.getColor
-import com.app_microrec.databinding.DialogFragmentSimpleBinding
 
 class SimpleDialogFragment(
     private var title: String? = null,
