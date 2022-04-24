@@ -3,6 +3,7 @@
     <color name="black">#FF000000</color>
     <color name="blackPrimary">#414141</color>
     <color name="blue">#1F51FF</color>
+    <color name="blueOpacity">#E3E9FF</color>
 
     <!-- Dialog: Simple -->
     <color name="dialogSimple_buttonRipple">#47BCBCBC</color>
