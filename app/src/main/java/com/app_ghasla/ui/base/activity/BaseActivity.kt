@@ -2,9 +2,9 @@ package com.app_ghasla.ui.base.activity
 
 import android.os.Bundle
 import android.view.LayoutInflater
-import android.viewbinding.ViewBinding
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.ActivityNavigator
+import androidx.viewbinding.ViewBinding
 import com.app_ghasla.R
 import com.app_ghasla.ui.base.dialog.SimpleDialogFragment
 

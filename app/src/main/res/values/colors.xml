@@ -5,6 +5,13 @@
     <color name="blue">#1F51FF</color>
     <color name="blueOpacity">#E3E9FF</color>
 
+    <!-- App -->
+    <color name="appPrimary">#1F51FF</color>
+    <color name="appPrimary_variant">#1F51FF</color>
+    <color name="appSecondary">#1F51FF</color>
+    <color name="appSecondary_variant">#1F51FF</color>
+    <color name="appStatusBar">#FFFFFF</color>
+
     <!-- Dialog: Simple -->
     <color name="dialogSimple_buttonRipple">#47BCBCBC</color>
 

@@ -1,4 +1,4 @@
-package com.app_ghasla.ui.base.fragment
+package com.app_ghasla.ui.on_boarding
 
 import android.view.LayoutInflater
 import android.view.ViewGroup

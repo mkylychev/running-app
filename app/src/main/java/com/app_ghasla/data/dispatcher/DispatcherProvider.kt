@@ -1,4 +1,4 @@
-package com.app_ghasla.common.data.dispatcher
+package com.app_ghasla.data.dispatcher
 
 import kotlinx.coroutines.Dispatchers
 
