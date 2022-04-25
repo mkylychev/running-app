@@ -6,6 +6,7 @@ import com.app_ghasla.data.resources.ResourcesProvider
 import com.app_ghasla.ui.on_boarding.OnBoardingRepository
 import com.app_ghasla.ui.on_boarding.OnBoardingViewModel
 import com.app_ghasla.data.notification.NotificationService
+import com.app_ghasla.ui.splash.SplashViewModel
 import org.koin.android.ext.koin.androidApplication
 import org.koin.androidx.viewmodel.dsl.viewModel
 import org.koin.dsl.module
@@ -33,18 +34,16 @@ object AppModule {
         single { PreferencesService(androidApplication()) }
     }
 
-
     private val notificationModule = module {
         single { NotificationService(androidApplication()) }
     }
-
-
 
     private val repositoryModule = module {
         single { OnBoardingRepository(get()) }
     }
 
     private val viewModelModule = module {
+        viewModel { SplashViewModel(get()) }
         viewModel { OnBoardingViewModel(get(), get()) }
     }
 }

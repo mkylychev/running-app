@@ -2,7 +2,13 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/graph_main"
-    app:startDestination="@id/onBoardingFragment">
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.app_ghasla.ui.splash.SplashFragment">
+
+    </fragment>
 
     <fragment
         android:id="@+id/onBoardingFragment"
@@ -10,6 +16,7 @@
         <deepLink app:uri="appnav://on_boarding" />
     </fragment>
 
+    <include app:graph="@navigation/graph_auth" />
 
 
 </navigation>
