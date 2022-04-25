@@ -24,4 +24,10 @@
     <string name="button_next">Next</string>
     <string name="button_continue">Continue</string>
     <string name="button_start_on_boarding">Take it for a spin</string>
+    <string name="button_skip">Skip</string>
+
+    <!-- On Boarding -->
+    <string name="on_boarding_first_title">Book your order from anywhere</string>
+    <string name="on_boarding_second_title">Get your car washed at your desired location</string>
+    <string name="on_boarding_third_title">Enjoy a clean car!</string>
 </resources>

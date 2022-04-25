@@ -16,9 +16,13 @@ class OnBoardingRepository(
         return listOfNotNull(
             OnBoardingItem(
             AppCompatResources.getDrawable(resources.getContext(), R.drawable.ic_launcher_background),
-            "test"),
+            resources.getString(R.string.on_boarding_first_title)),
             OnBoardingItem(
             AppCompatResources.getDrawable(resources.getContext(), R.drawable.ic_launcher_background),
-            "test2"))
+                resources.getString(R.string.on_boarding_second_title)),
+            OnBoardingItem(
+                AppCompatResources.getDrawable(resources.getContext(), R.drawable.ic_launcher_background),
+                resources.getString(R.string.on_boarding_third_title))
+        )
     }
 }

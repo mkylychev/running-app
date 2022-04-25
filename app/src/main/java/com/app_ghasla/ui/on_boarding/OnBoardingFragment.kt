@@ -29,7 +29,7 @@ class OnBoardingFragment: BaseFragment<FragmentOnBoardingBinding>() {
     private fun initUi() {
         setOnBoardingViewPager()
         setupNextButton()
-       // setupSkipButton()
+        setupSkipButton()
     }
 
     /**
@@ -58,11 +58,11 @@ class OnBoardingFragment: BaseFragment<FragmentOnBoardingBinding>() {
     /**
      * Skip button
      */
-//    private fun setupSkipButton() = with(binding.tvSkip) {
-//        setOnClickListener {
-//            viewModel.setAction(Action.Skip)
-//        }
-//    }
+    private fun setupSkipButton() = with(binding.tvSkip) {
+        setOnClickListener {
+            viewModel.setAction(Action.Skip)
+        }
+    }
 
     /**
      * State
@@ -90,10 +90,8 @@ class OnBoardingFragment: BaseFragment<FragmentOnBoardingBinding>() {
             currentPage?.let {
                 vpOnBoarding.currentItem = it
             }
-
             isSkipped?.let {
-//                homeViewModel.setAction(HomeContract.Action.SetOnBoardingPassed(true))
-//                back()
+
             }
         }
     }
