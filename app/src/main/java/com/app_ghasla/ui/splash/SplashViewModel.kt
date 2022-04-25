@@ -26,7 +26,7 @@ class SplashViewModel(
     private fun checkAuthState() = launch {
         withContext(dispatcher.io) {
             delay(SPLASH_DELAY)
-            setEffect { Effect.NavigateToOnBoardingScreen }
+            setEffect { Effect.NavigateToAuthScreen}
 //            with(repository) {
 //                when {
 //                    (authUser == null || authUser?.isEmailVerified == false) -> {
