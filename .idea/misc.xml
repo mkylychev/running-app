@@ -10,6 +10,7 @@
         <entry key="app/src/main/res/layout/adapter_on_boarding.xml" value="0.14583333333333334" />
         <entry key="app/src/main/res/layout/dialog_fragment_simple.xml" value="0.19610507246376813" />
         <entry key="app/src/main/res/layout/fragment_on_boarding.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/fragment_sign_in.xml" value="0.19610507246376813" />
         <entry key="app/src/main/res/layout/fragment_splash.xml" value="0.19610507246376813" />
       </map>
     </option>

@@ -2,18 +2,13 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/graph_auth"
-    app:startDestination="@id/welcomeFragment">
+    app:startDestination="@id/signInFragment">
 
     <fragment
-        android:id="@+id/welcomeFragment"
-        android:name="com.app_microrec.ui.auth.welcome.WelcomeFragment">
+        android:id="@+id/signInFragment"
+        android:name="com.app_ghasla.ui.auth.signin.SignInFragment">
         <deepLink app:uri="appnav://welcome" />
     </fragment>
 
-    <fragment
-        android:id="@+id/signUpFragment"
-        android:name="com.app_microrec.ui.auth.signup.SignUpFragment">
-        <deepLink app:uri="appnav://signup" />
-    </fragment>
 
 </navigation>
