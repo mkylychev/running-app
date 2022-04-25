@@ -10,5 +10,4 @@
         <deepLink app:uri="appnav://welcome" />
     </fragment>
 
-
 </navigation>

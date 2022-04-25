@@ -30,4 +30,10 @@
     <string name="on_boarding_first_title">Book your order from anywhere</string>
     <string name="on_boarding_second_title">Get your car washed at your desired location</string>
     <string name="on_boarding_third_title">Enjoy a clean car!</string>
+
+    <!-- Sign in -->
+    <string name="sign_in_screen_welcome">Welcome!</string>
+    <string name="sign_in_screen_description">Wee will send you a verification code on your phone number.</string>
+    <string name="sign_in_screen_phone_number">Phone number</string>
+    <string name="sign_in_screen_verify">Verify</string>
 </resources>

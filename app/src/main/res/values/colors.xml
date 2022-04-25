@@ -4,6 +4,8 @@
     <color name="blackPrimary">#414141</color>
     <color name="blue">#1F51FF</color>
     <color name="blueOpacity">#E3E9FF</color>
+    <color name="gray">#828386</color>
+    <color name="grayOpacity">#9CA2B6</color>
 
     <!-- App -->
     <color name="appPrimary">#1F51FF</color>
@@ -11,6 +13,10 @@
     <color name="appSecondary">#1F51FF</color>
     <color name="appSecondary_variant">#1F51FF</color>
     <color name="appStatusBar">#FFFFFF</color>
+    <color name="appBackground">#F8F8FB</color>
+
+    <!-- Divider -->
+    <color name="divider_background">#C7D4FF</color>
 
     <!-- Dialog: Simple -->
     <color name="dialogSimple_buttonRipple">#47BCBCBC</color>

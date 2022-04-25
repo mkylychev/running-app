@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cvInputField"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    app:cardCornerRadius="6dp"
+    app:cardElevation="3dp"
+    app:cardMaxElevation="6dp"
+    app:strokeWidth="1dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/ivFlag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+        <View
+           android:id="@+id/divider"
+            android:layout_width="2dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:background="@color/divider_background"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/ivFlag"/>
+
+
+        <EditText
+            android:id="@+id/etInputField"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/poppins_regular"
+            android:inputType="text"
+            android:maxLines="1"
+            android:layout_marginStart="13dp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textColor="@color/blackPrimary"
+            android:textColorHint="@color/gray"
+            android:textSize="15sp"
+            tools:hint="@string/app_name"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/divider"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</com.google.android.material.card.MaterialCardView>
