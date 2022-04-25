@@ -36,4 +36,9 @@
     <string name="sign_in_screen_description">Wee will send you a verification code on your phone number.</string>
     <string name="sign_in_screen_phone_number">Phone number</string>
     <string name="sign_in_screen_verify">Verify</string>
+
+    <!-- Verify -->
+    <string name="verify_screen_title">Verify your number</string>
+    <string name="verify_screen_description">Wee sent you a 4-digit code to verify your number.</string>
+    <string name="verify_screen_secure_code">Secure code</string>
 </resources>

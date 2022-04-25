@@ -13,6 +13,7 @@
         <entry key="app/src/main/res/layout/fragment_on_boarding.xml" value="0.19610507246376813" />
         <entry key="app/src/main/res/layout/fragment_sign_in.xml" value="0.19610507246376813" />
         <entry key="app/src/main/res/layout/fragment_splash.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/fragment_verify_phone.xml" value="0.19610507246376813" />
         <entry key="app/src/main/res/layout/view_input_field_base.xml" value="0.19610507246376813" />
       </map>
     </option>

@@ -10,4 +10,10 @@
         <deepLink app:uri="appnav://welcome" />
     </fragment>
 
+    <fragment
+        android:id="@+id/verifyPhoneFragment"
+        android:name="com.app_ghasla.ui.auth.verify.VerifyPhoneFragment">
+        <deepLink app:uri="appnav://welcome" />
+    </fragment>
+
 </navigation>

@@ -95,6 +95,9 @@ dependencies {
     implementation "androidx.navigation:navigation-fragment-ktx:$navigationVersion"
     implementation "androidx.navigation:navigation-ui-ktx:$navigationVersion"
 
+    // Pin view
+    implementation 'io.github.chaosleung:pinview:1.4.4'
+
     // ViewPager
     implementation "androidx.viewpager2:viewpager2:1.0.0"
     // ViewPager dots indicator
