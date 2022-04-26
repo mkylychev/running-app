@@ -41,4 +41,7 @@
     <string name="verify_screen_title">Verify your number</string>
     <string name="verify_screen_description">Wee sent you a 4-digit code to verify your number.</string>
     <string name="verify_screen_secure_code">Secure code</string>
+    <string name="verify_screen_code_hint">----</string>
+    <string name="verify_screen_code_do_not_receive_code">Didn’t receive the code? Resend</string>
+    <string name="verify_screen_code_do_not_receive_code_resend">Resend</string>
 </resources>
