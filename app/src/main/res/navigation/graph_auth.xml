@@ -7,19 +7,19 @@
     <fragment
         android:id="@+id/signInFragment"
         android:name="com.app_ghasla.ui.auth.signin.SignInFragment">
-        <deepLink app:uri="appnav://welcome" />
+        <deepLink app:uri="appnav://signin" />
     </fragment>
 
     <fragment
         android:id="@+id/verifyPhoneFragment"
         android:name="com.app_ghasla.ui.auth.verify.VerifyPhoneFragment">
-        <deepLink app:uri="appnav://welcome" />
+        <deepLink app:uri="appnav://verify_phone" />
     </fragment>
 
     <fragment
         android:id="@+id/createProfileFragment"
         android:name="com.app_ghasla.ui.auth.create_profile.CreateProfileFragment">
-        <deepLink app:uri="appnav://welcome" />
+        <deepLink app:uri="appnav://create_profile" />
     </fragment>
 
 </navigation>

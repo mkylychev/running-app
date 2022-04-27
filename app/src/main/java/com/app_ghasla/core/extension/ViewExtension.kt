@@ -12,6 +12,7 @@ import androidx.core.view.isVisible
 import androidx.core.widget.TextViewCompat
 import androidx.fragment.app.Fragment
 import com.app_ghasla.core.extension.getColor
+import com.app_ghasla.core.model.common.InputFieldState
 import com.google.android.material.card.MaterialCardView
 
 /**
@@ -92,6 +93,11 @@ fun ImageView.setTint(@ColorRes color: Int) {
  */
 fun MaterialCardView.changeStrokeColor(@ColorRes color: Int) {
     strokeColor = getColor(color)
+}
+
+fun MaterialCardView.changeStrokeColor(inputFieldState: InputFieldState) {
+    strokeColor = getColor(inputFieldState.strokeColor)
+    invalidate()
 }
 
 /**

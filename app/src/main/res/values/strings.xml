@@ -44,4 +44,11 @@
     <string name="verify_screen_code_hint">----</string>
     <string name="verify_screen_code_do_not_receive_code">Didn’t receive the code? Resend</string>
     <string name="verify_screen_code_do_not_receive_code_resend">Resend</string>
+
+    <!-- Create profile -->
+    <string name="create_profile_screen_title">Create profile</string>
+    <string name="create_profile_screen_description">Please complete your information.</string>
+    <string name="create_profile_screen_first_name">First Name</string>
+    <string name="create_profile_screen_last_name">Last Name</string>
+
 </resources>

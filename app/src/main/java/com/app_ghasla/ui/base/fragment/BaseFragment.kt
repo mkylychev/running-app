@@ -6,6 +6,9 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.viewbinding.ViewBinding
 import androidx.fragment.app.Fragment
+import changeStrokeColor
+import com.app_ghasla.core.model.common.InputFieldState
+import com.google.android.material.card.MaterialCardView
 
 abstract class BaseFragment<VB : ViewBinding> : Fragment() {
 
@@ -35,6 +38,15 @@ abstract class BaseFragment<VB : ViewBinding> : Fragment() {
 //                description = message,
 //                buttonPositiveTitle = getString(R.string.dialog_buttonOk)
 //            ).show(childFragmentManager)
+        }
+    }
+
+    protected val inputFieldFocusChangeListener = View.OnFocusChangeListener { view, hasFocus ->
+        (view.parent as? MaterialCardView)?.let {
+            when (hasFocus) {
+                true -> it.changeStrokeColor(InputFieldState.Focused)
+                false -> it.changeStrokeColor(InputFieldState.Normal)
+            }
         }
     }
 }
