@@ -5,10 +5,11 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.viewpager2.widget.ViewPager2
-import com.app_ghasla.common.extension.observe
+import com.app_ghasla.core.extension.observe
 import com.app_ghasla.databinding.FragmentOnBoardingBinding
+import com.app_ghasla.domain.OnBoardingViewModel
 import com.app_ghasla.ui.base.fragment.BaseFragment
-import com.app_ghasla.ui.on_boarding.OnBoardingContract.*
+import com.app_ghasla.core.contract.OnBoardingContract.*
 import org.koin.androidx.viewmodel.ext.android.viewModel
 
 class OnBoardingFragment: BaseFragment<FragmentOnBoardingBinding>() {

@@ -5,8 +5,8 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
-import com.app_ghasla.common.extension.setImage
-import com.app_ghasla.common.model.OnBoardingItem
+import com.app_ghasla.core.extension.setImage
+import com.app_ghasla.core.model.OnBoardingItem
 import com.app_ghasla.databinding.AdapterOnBoardingBinding
 
 class OnBoardingAdapter :
