@@ -3,11 +3,11 @@ package com.app_ghasla.ui.base.viewmodel
 import androidx.annotation.RestrictTo
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.app_ghasla.common.error.ErrorMessage
-import com.app_ghasla.common.error.toErrorMessage
-import com.app_ghasla.common.mvi.ViewAction
-import com.app_ghasla.common.mvi.ViewEffect
-import com.app_ghasla.common.mvi.ViewState
+import com.app_ghasla.core.error.ErrorMessage
+import com.app_ghasla.core.error.toErrorMessage
+import com.app_ghasla.core.mvi.ViewAction
+import com.app_ghasla.core.mvi.ViewEffect
+import com.app_ghasla.core.mvi.ViewState
 import kotlinx.coroutines.CoroutineExceptionHandler
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.channels.Channel

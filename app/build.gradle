@@ -1,6 +1,8 @@
 plugins {
     id 'com.android.application'
-    id 'org.jetbrains.kotlin.android'
+    id 'kotlin-android'
+    id 'kotlin-kapt'
+    id 'kotlin-parcelize'
 }
 
 android {
@@ -29,6 +31,9 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+    buildFeatures {
+        viewBinding = true
+    }
 }
 
 dependencies {
@@ -53,6 +58,9 @@ dependencies {
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-play-services:$coroutinesVersion"
     testImplementation "org.jetbrains.kotlinx:kotlinx-coroutines-test:$coroutinesVersion"
 
+    // Coil image loader
+    implementation("io.coil-kt:coil:2.0.0-rc03")
+
     // Firebase
     implementation platform("com.google.firebase:firebase-bom:28.4.1")
     implementation "com.google.firebase:firebase-analytics-ktx"
@@ -63,6 +71,14 @@ dependencies {
 
     // Gson
     implementation "com.google.code.gson:gson:2.8.9"
+
+    // Keyboard Visibility Event
+    implementation "net.yslibrary.keyboardvisibilityevent:keyboardvisibilityevent:3.0.0-RC3"
+
+    // Koin
+    def koinVersion = "3.1.5"
+    implementation "io.insert-koin:koin-core:$koinVersion"
+    implementation "io.insert-koin:koin-android:$koinVersion"
 
     // Lifecycle: ViewModel & LiveData
     def lifecycleVersion = "2.4.1"
@@ -78,6 +94,11 @@ dependencies {
     def navigationVersion = "2.4.0"
     implementation "androidx.navigation:navigation-fragment-ktx:$navigationVersion"
     implementation "androidx.navigation:navigation-ui-ktx:$navigationVersion"
+
+    // ViewPager
+    implementation "androidx.viewpager2:viewpager2:1.0.0"
+    // ViewPager dots indicator
+    implementation 'com.tbuonomo:dotsindicator:4.2'
 
     // JUnit & Espresso
     testImplementation "junit:junit:4.13.2"

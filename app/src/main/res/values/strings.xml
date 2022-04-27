@@ -1,3 +1,33 @@
 <resources>
     <string name="app_name">Ghasla</string>
+
+    <!-- Dialog -->
+    <string name="dialog_titleWhoops">Whoops</string>
+    <string name="dialog_buttonOk">OK</string>
+    <string name="dialog_buttonGotIt">Got it!</string>
+    <string name="dialog_buttonCancel">Cancel</string>
+    <string name="dialog_buttonDelete">Delete</string>
+    <string name="dialog_buttonLogout">Logout</string>
+    <string name="dialog_buttonStay">Stay</string>
+    <string name="dialog_buttonLeave">Leave</string>
+    <string name="dialog_buttonUpdate">Update</string>
+    <string name="dialog_buttonLater">Later</string>
+
+    <!-- Button -->
+    <string name="button_login">Login</string>
+    <string name="button_signUp">Sign up</string>
+    <string name="button_otherSignUp">Other sign up options</string>
+    <string name="button_resetPassword">Reset password</string>
+    <string name="button_register">Register</string>
+    <string name="button_save">Save</string>
+    <string name="button_saveChanges">Save Changes</string>
+    <string name="button_next">Next</string>
+    <string name="button_continue">Continue</string>
+    <string name="button_start_on_boarding">Take it for a spin</string>
+    <string name="button_skip">Skip</string>
+
+    <!-- On Boarding -->
+    <string name="on_boarding_first_title">Book your order from anywhere</string>
+    <string name="on_boarding_second_title">Get your car washed at your desired location</string>
+    <string name="on_boarding_third_title">Enjoy a clean car!</string>
 </resources>
