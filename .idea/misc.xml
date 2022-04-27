@@ -10,11 +10,15 @@
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.19610507246376813" />
         <entry key="app/src/main/res/layout/adapter_on_boarding.xml" value="0.14583333333333334" />
         <entry key="app/src/main/res/layout/dialog_fragment_simple.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/fragment_create_profile.xml" value="0.11" />
         <entry key="app/src/main/res/layout/fragment_on_boarding.xml" value="0.19610507246376813" />
         <entry key="app/src/main/res/layout/fragment_sign_in.xml" value="0.19610507246376813" />
         <entry key="app/src/main/res/layout/fragment_splash.xml" value="0.19610507246376813" />
-        <entry key="app/src/main/res/layout/fragment_verify_phone.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/fragment_verify_phone.xml" value="0.11" />
+        <entry key="app/src/main/res/layout/view_input_field_autocomplete.xml" value="0.19610507246376813" />
         <entry key="app/src/main/res/layout/view_input_field_base.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/view_input_field_multiline.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/view_input_phone_field_base.xml" value="0.1" />
       </map>
     </option>
   </component>

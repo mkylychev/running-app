@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cvInputField"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    app:cardCornerRadius="6dp"
+    app:cardElevation="3dp"
+    app:cardMaxElevation="6dp"
+    app:strokeWidth="1dp">
+
+    <EditText
+        android:id="@+id/etInputField"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center_vertical"
+        android:background="@android:color/transparent"
+        android:fontFamily="@font/poppins_regular"
+        android:inputType="text"
+        android:maxLines="1"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:textColor="@color/blackPrimary"
+        android:textColorHint="@color/gray"
+        android:textSize="15sp"
+        tools:hint="@string/app_name" />
+
+</com.google.android.material.card.MaterialCardView>

@@ -2,7 +2,7 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/graph_auth"
-    app:startDestination="@id/verifyPhoneFragment">
+    app:startDestination="@id/createProfileFragment">
 
     <fragment
         android:id="@+id/signInFragment"
@@ -13,6 +13,12 @@
     <fragment
         android:id="@+id/verifyPhoneFragment"
         android:name="com.app_ghasla.ui.auth.verify.VerifyPhoneFragment">
+        <deepLink app:uri="appnav://welcome" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/createProfileFragment"
+        android:name="com.app_ghasla.ui.auth.create_profile.CreateProfileFragment">
         <deepLink app:uri="appnav://welcome" />
     </fragment>
 
