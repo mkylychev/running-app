@@ -1,7 +1,7 @@
 package com.app_ghasla.ui.base.service
 
-import com.app_ghasla.common.error.ErrorMessage
-import com.app_ghasla.common.error.toErrorMessage
+import com.app_ghasla.core.error.ErrorMessage
+import com.app_ghasla.core.error.toErrorMessage
 import kotlinx.coroutines.*
 import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.flow.Flow

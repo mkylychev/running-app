@@ -5,8 +5,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.app_ghasla.R
-import com.app_ghasla.common.extension.navigate
-import com.app_ghasla.common.extension.observe
+import com.app_ghasla.core.extension.navigate
+import com.app_ghasla.core.extension.observe
 import com.app_ghasla.databinding.FragmentSplashBinding
 import com.app_ghasla.navigation.NavCommand
 import com.app_ghasla.navigation.NavCommands

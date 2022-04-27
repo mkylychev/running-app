@@ -1,9 +1,9 @@
 package com.app_ghasla.ui.base.viewmodel
 
-import com.app_ghasla.common.mvi.ViewAction
-import com.app_ghasla.common.mvi.ViewEffect
-import com.app_ghasla.common.mvi.ViewState
-import com.app_ghasla.common.mvi.ViewStore
+import com.app_ghasla.core.mvi.ViewAction
+import com.app_ghasla.core.mvi.ViewEffect
+import com.app_ghasla.core.mvi.ViewState
+import com.app_ghasla.core.mvi.ViewStore
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow

@@ -1,6 +1,6 @@
 package com.app_ghasla.ui.splash
 
-import com.app_ghasla.common.constant.SPLASH_DELAY
+import com.app_ghasla.core.constant.SPLASH_DELAY
 import com.app_ghasla.data.dispatcher.DispatcherProvider
 import com.app_ghasla.ui.base.viewmodel.BaseViewModel
 import com.app_ghasla.ui.splash.SplashContract.*

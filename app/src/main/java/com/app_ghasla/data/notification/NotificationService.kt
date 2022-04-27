@@ -12,7 +12,7 @@ import androidx.core.app.NotificationCompat
 import androidx.core.app.NotificationManagerCompat
 import com.app_ghasla.MainActivity
 import com.app_ghasla.R
-import com.app_ghasla.common.constant.emptyString
+import com.app_ghasla.core.constant.emptyString
 
 class NotificationService(private val context: Context) {
 

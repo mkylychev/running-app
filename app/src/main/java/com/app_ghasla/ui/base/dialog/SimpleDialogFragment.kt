@@ -8,8 +8,8 @@ import android.view.WindowManager
 import androidx.annotation.ColorRes
 import androidx.core.view.isVisible
 import com.app_ghasla.R
-import com.app_ghasla.common.constant.emptyString
-import com.app_ghasla.common.extension.getColor
+import com.app_ghasla.core.constant.emptyString
+import com.app_ghasla.core.extension.getColor
 import com.app_ghasla.databinding.DialogFragmentSimpleBinding
 
 class SimpleDialogFragment(

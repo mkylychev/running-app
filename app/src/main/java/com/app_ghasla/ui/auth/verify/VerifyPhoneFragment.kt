@@ -5,7 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.app_ghasla.R
-import com.app_ghasla.common.extension.setLink
+import com.app_ghasla.core.extension.setLink
 import com.app_ghasla.databinding.FragmentVerifyPhoneBinding
 import com.app_ghasla.ui.base.fragment.BaseFragment
 

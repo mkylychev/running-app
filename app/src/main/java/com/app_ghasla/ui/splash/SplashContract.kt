@@ -1,8 +1,8 @@
 package com.app_ghasla.ui.splash
 
-import com.app_ghasla.common.mvi.ViewAction
-import com.app_ghasla.common.mvi.ViewEffect
-import com.app_ghasla.common.mvi.ViewState
+import com.app_ghasla.core.mvi.ViewAction
+import com.app_ghasla.core.mvi.ViewEffect
+import com.app_ghasla.core.mvi.ViewState
 
 
 class SplashContract {
