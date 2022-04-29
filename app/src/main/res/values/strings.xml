@@ -51,4 +51,7 @@
     <string name="create_profile_screen_first_name">First Name</string>
     <string name="create_profile_screen_last_name">Last Name</string>
 
+    <!-- Coupons -->
+    <string name="coupons_screen_empty_state">Sorry, you don’t have active coupons yet.</string>
+
 </resources>

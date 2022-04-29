@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Elevation -->
+    <dimen name="elevation_default">8dp</dimen>
+
+    <!-- Radius -->
+    <dimen name="radius_8">8dp</dimen>
+    <dimen name="radius_12">12dp</dimen>
+    <dimen name="radius_16">16dp</dimen>
+    <dimen name="radius_23">23dp</dimen>
+
+    <!-- Toolbar -->
+    <dimen name="toolbar_height">56dp</dimen>
+    <dimen name="toolbar_elevation">8dp</dimen>
+
+    <!-- Input Field: Base -->
+    <dimen name="inputFieldBase_height">62dp</dimen>
+
+
+</resources>

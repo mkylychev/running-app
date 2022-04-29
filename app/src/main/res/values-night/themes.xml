@@ -27,4 +27,11 @@
         <item name="cornerRadius">25dp</item>
         <item name="elevation">8dp</item>
     </style>
+
+    <!-- Ripple Round: Background -->
+    <style name="RippleRoundBackground">
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:background">?attr/selectableItemBackgroundBorderless</item>
+    </style>
 </resources>
