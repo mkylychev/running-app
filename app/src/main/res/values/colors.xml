@@ -5,6 +5,7 @@
     <color name="blackPrimary">#414141</color>
     <color name="blue">#1F51FF</color>
     <color name="blueOpacity">#E3E9FF</color>
+    <color name="yellow">#FFEA51</color>
     <color name="gray">#828386</color>
     <color name="grayOpacity">#9CA2B6</color>
     <color name="grayDark">#344054</color>

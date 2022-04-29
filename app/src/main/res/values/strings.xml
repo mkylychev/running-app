@@ -53,5 +53,7 @@
 
     <!-- Coupons -->
     <string name="coupons_screen_empty_state">Sorry, you don’t have active coupons yet.</string>
+    <string name="coupons_screen_discount">Discount</string>
+    <string name="coupons_screen_apply">Apply</string>
 
 </resources>
