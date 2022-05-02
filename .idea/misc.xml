@@ -16,6 +16,7 @@
         <entry key="app/src/main/res/layout/dialog_fragment_simple.xml" value="0.19610507246376813" />
         <entry key="app/src/main/res/layout/fragment_coupons.xml" value="0.1859375" />
         <entry key="app/src/main/res/layout/fragment_create_profile.xml" value="0.11" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.1859375" />
         <entry key="app/src/main/res/layout/fragment_on_boarding.xml" value="0.19610507246376813" />
         <entry key="app/src/main/res/layout/fragment_sign_in.xml" value="0.19610507246376813" />
         <entry key="app/src/main/res/layout/fragment_splash.xml" value="0.19610507246376813" />
@@ -24,6 +25,7 @@
         <entry key="app/src/main/res/layout/view_input_field_base.xml" value="0.19610507246376813" />
         <entry key="app/src/main/res/layout/view_input_field_multiline.xml" value="0.19610507246376813" />
         <entry key="app/src/main/res/layout/view_input_phone_field_base.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/view_toolbar_avatar.xml" value="0.1859375" />
         <entry key="app/src/main/res/layout/view_toolbar_bell.xml" value="0.1859375" />
       </map>
     </option>
