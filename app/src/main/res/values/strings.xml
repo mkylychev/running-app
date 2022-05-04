@@ -56,4 +56,8 @@
     <string name="coupons_screen_discount">Discount</string>
     <string name="coupons_screen_apply">Apply</string>
 
+    <!-- Home screen -->
+    <string name="home_screen_title">Let’s wash your car.</string>
+    <string name="home_screen_make_a_booking">Make a Booking</string>
+
 </resources>
