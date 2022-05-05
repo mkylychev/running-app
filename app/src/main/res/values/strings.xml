@@ -23,6 +23,7 @@
     <string name="button_saveChanges">Save Changes</string>
     <string name="button_next">Next</string>
     <string name="button_continue">Continue</string>
+    <string name="button_confirm">Confirm</string>
     <string name="button_start_on_boarding">Take it for a spin</string>
     <string name="button_skip">Skip</string>
 
@@ -60,4 +61,6 @@
     <string name="home_screen_title">Let’s wash your car.</string>
     <string name="home_screen_make_a_booking">Make a Booking</string>
 
+    <!-- Create order screen -->
+    <string name="create_order_screen_add_new_car">Add a new car</string>
 </resources>

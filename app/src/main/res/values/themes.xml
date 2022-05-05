@@ -48,4 +48,9 @@
         <item name="android:focusable">true</item>
         <item name="android:background">?attr/selectableItemBackgroundBorderless</item>
     </style>
+
+    <!-- Divider -->
+    <style name="AppItemDivider">
+        <item name="android:background">@color/create_order_divider_background</item>
+    </style>
 </resources>

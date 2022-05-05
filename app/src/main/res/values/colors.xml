@@ -21,6 +21,7 @@
 
     <!-- Divider -->
     <color name="divider_background">#C7D4FF</color>
+    <color name="create_order_divider_background">#E6EAF0</color>
 
     <!-- Dialog: Simple -->
     <color name="dialogSimple_buttonRipple">#47BCBCBC</color>
@@ -31,4 +32,12 @@
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
+
+
+    <!-- Progress Indicator -->
+    <color name="progressIndicator">#1F51FF</color>
+    <color name="progressIndicator_background">#E3EEFF</color>
+
+    <!-- Create Order Screen -->
+    <color name="createOrderScreen_title">#898989</color>
 </resources>
