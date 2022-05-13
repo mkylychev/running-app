@@ -5,6 +5,7 @@
     <dimen name="elevation_default">8dp</dimen>
 
     <!-- Radius -->
+    <dimen name="radius_6">6dp</dimen>
     <dimen name="radius_8">8dp</dimen>
     <dimen name="radius_12">12dp</dimen>
     <dimen name="radius_16">16dp</dimen>

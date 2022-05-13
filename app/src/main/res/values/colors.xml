@@ -40,4 +40,9 @@
 
     <!-- Create Order Screen -->
     <color name="createOrderScreen_title">#898989</color>
+
+    <!-- Select Package Screen -->
+    <color name="package_title_color_inactive">#454E64</color>
+    <color name="package_title_color_price_inactive">#677087</color>
+    <color name="package_background_color_inactive">#E6EAF0</color>
 </resources>
