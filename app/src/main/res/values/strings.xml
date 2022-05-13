@@ -61,6 +61,10 @@
     <string name="home_screen_title">Let’s wash your car.</string>
     <string name="home_screen_make_a_booking">Make a Booking</string>
 
-    <!-- Create order screen -->
-    <string name="create_order_screen_add_new_car">Add a new car</string>
+    <!-- Select car screen -->
+    <string name="select_car_screen_select_car">Select car</string>
+    <string name="select_carr_screen_add_new_car">Add a new car</string>
+
+    <!-- Select package screen -->
+    <string name="select_package_screen_select_package">Select your package</string>
 </resources>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <!-- Toolbar -->
     <include
@@ -37,7 +37,7 @@
         android:layout_width="0dp"
         android:layout_height="5dp"
         android:layout_marginTop="16dp"
-        android:progress="30"
+        android:progress="50"
         android:progressDrawable="@drawable/bg_progress"
         app:layout_constraintEnd_toEndOf="@+id/glEnd"
         app:layout_constraintStart_toStartOf="@+id/glStart"
@@ -50,7 +50,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:fontFamily="@font/poppins_semi_bold"
-        android:text="@string/select_car_screen_select_car"
+        android:text="@string/select_package_screen_select_package"
         android:textColor="@color/createOrderScreen_title"
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="@+id/glEnd"
@@ -69,43 +69,44 @@
         app:layout_constraintTop_toBottomOf="@+id/tvSelect" />
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rvCars"
+        android:id="@+id/rvPackage"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="@+id/glEnd"
         app:layout_constraintStart_toStartOf="@+id/glStart"
         app:layout_constraintTop_toBottomOf="@+id/divider" />
 
-    <!-- Add New Car -->
+    <!-- Title -->
     <TextView
-        android:id="@+id/tvAddNewCar"
-        android:layout_width="wrap_content"
+        android:id="@+id/tvOptions"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:fontFamily="@font/poppins_semi_bold"
-        android:paddingStart="10dp"
-        android:paddingEnd="10dp"
-        android:text="@string/select_carr_screen_add_new_car"
-        android:textColor="@color/blue"
+        android:text="@string/select_package_screen_select_package"
+        android:textColor="@color/createOrderScreen_title"
         android:textSize="14sp"
-        android:drawablePadding="6dp"
         app:layout_constraintEnd_toEndOf="@+id/glEnd"
         app:layout_constraintStart_toStartOf="@+id/glStart"
-        app:layout_constraintTop_toBottomOf="@+id/rvCars"
-        app:drawableEndCompat="@drawable/ic_add" />
+        app:layout_constraintTop_toBottomOf="@+id/rvPackage" />
 
-    <!-- Next -->
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/btnConfirm"
-        style="@style/ButtonBlue"
+    <!-- Divider -->
+    <View
+        android:id="@+id/divider2"
+        style="@style/AppItemDivider"
         android:layout_width="0dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="25dp"
-        android:enabled="true"
-        android:text="@string/button_confirm"
-        android:layout_marginBottom="46dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="8dp"
         app:layout_constraintEnd_toEndOf="@+id/glEnd"
-        app:layout_constraintStart_toStartOf="@+id/glStart" />
+        app:layout_constraintStart_toStartOf="@+id/glStart"
+        app:layout_constraintTop_toBottomOf="@+id/tvOptions" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvOptions"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@+id/glEnd"
+        app:layout_constraintStart_toStartOf="@+id/glStart"
+        app:layout_constraintTop_toBottomOf="@+id/divider2"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
