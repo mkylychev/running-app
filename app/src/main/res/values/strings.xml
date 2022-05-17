@@ -72,5 +72,5 @@
     <string name="bottomNavigation_item_home">Home</string>
     <string name="bottomNavigation_item_orders">Orders</string>
     <string name="bottomNavigation_item_coupons">Coupons</string>
-    <string name="bottomNavigation_item_qrcode">QR code </string>
+    <string name="bottomNavigation_item_qrcode">QRcode</string>
 </resources>

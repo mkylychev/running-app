@@ -8,9 +8,12 @@ import androidx.annotation.ColorRes
 import androidx.annotation.DrawableRes
 import androidx.appcompat.content.res.AppCompatResources
 import androidx.core.content.ContextCompat
+import androidx.core.graphics.BlendModeColorFilterCompat
+import androidx.core.graphics.BlendModeCompat
 import androidx.core.view.isVisible
 import androidx.core.widget.TextViewCompat
 import androidx.fragment.app.Fragment
+import com.app_ghasla.R
 import com.app_ghasla.core.extension.getColor
 import com.app_ghasla.core.model.common.InputFieldState
 import com.google.android.material.card.MaterialCardView
@@ -67,6 +70,15 @@ fun TextView.asErrorMessage(message: String?) {
             show()
         }
     }
+}
+
+/**
+ * TextView: background color
+ */
+fun TextView.setBackgroundColorFilter(@ColorRes color: Int) {
+    background.colorFilter = BlendModeColorFilterCompat.createBlendModeColorFilterCompat(
+        ContextCompat.getColor(context, color), BlendModeCompat.SRC_ATOP
+    )
 }
 
 /**

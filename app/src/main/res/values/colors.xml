@@ -48,4 +48,16 @@
     <color name="package_title_color_inactive">#454E64</color>
     <color name="package_title_color_price_inactive">#677087</color>
     <color name="package_background_color_inactive">#E6EAF0</color>
+
+    <!-- Bottom view -->
+    <color name="bottom_view_home">#1F94A9</color>
+    <color name="bottom_view_home_background">#D3EBEF</color>
+    <color name="bottom_view_order">#5B3DB4</color>
+    <color name="bottom_view_order_background">#DFD8F2</color>
+    <color name="bottom_view_coupons">#E5A830</color>
+    <color name="bottom_view_coupons_background">#FBEFD4</color>
+    <color name="bottom_view_qrcode">#C73C9C</color>
+    <color name="bottom_view_qrcode_background">#F5D6ED</color>
+
+
 </resources>
