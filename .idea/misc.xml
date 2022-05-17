@@ -12,11 +12,13 @@
         <entry key="app/src/main/res/drawable/ic_car.xml" value="0.1275" />
         <entry key="app/src/main/res/drawable/ic_coupon_bg.xml" value="0.1275" />
         <entry key="app/src/main/res/drawable/ic_empty_coupons.xml" value="0.1275" />
+        <entry key="app/src/main/res/drawable/ic_item_orders.xml" value="0.1275" />
         <entry key="app/src/main/res/drawable/ic_logo.xml" value="0.1275" />
         <entry key="app/src/main/res/drawable/ic_percent_big.xml" value="0.1275" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.19610507246376813" />
         <entry key="app/src/main/res/layout/adapter_coupons.xml" value="0.19610507246376813" />
         <entry key="app/src/main/res/layout/adapter_on_boarding.xml" value="0.14583333333333334" />
+        <entry key="app/src/main/res/layout/adapter_options.xml" value="0.165" />
         <entry key="app/src/main/res/layout/adapter_package.xml" value="0.335" />
         <entry key="app/src/main/res/layout/adapter_select_car.xml" value="0.1526293287729799" />
         <entry key="app/src/main/res/layout/dialog_fragment_simple.xml" value="0.19610507246376813" />
@@ -30,6 +32,7 @@
         <entry key="app/src/main/res/layout/fragment_sign_in.xml" value="0.19610507246376813" />
         <entry key="app/src/main/res/layout/fragment_splash.xml" value="0.19610507246376813" />
         <entry key="app/src/main/res/layout/fragment_verify_phone.xml" value="0.11" />
+        <entry key="app/src/main/res/layout/view_bottom_navigation.xml" value="0.1923899102180419" />
         <entry key="app/src/main/res/layout/view_input_field_autocomplete.xml" value="0.19610507246376813" />
         <entry key="app/src/main/res/layout/view_input_field_base.xml" value="0.19610507246376813" />
         <entry key="app/src/main/res/layout/view_input_field_multiline.xml" value="0.19610507246376813" />

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/clParent"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/bottomNavigation_height">
+
+    <!-- Items -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/clItems"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:background="@color/white"
+        android:elevation="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <!-- Home -->
+        <TextView
+            android:id="@+id/tvHome"
+            style="@style/RippleRoundBackground"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:drawablePadding="5dp"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="center_vertical"
+            android:includeFontPadding="false"
+            android:text="@string/bottomNavigation_item_home"
+            android:textColor="@color/blackPrimary"
+            android:textSize="13sp"
+            app:drawableStartCompat="@drawable/ic_item_home"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/tvOrders"
+            app:layout_constraintHorizontal_chainStyle="spread"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="SmallSp" />
+
+        <!-- Orders -->
+        <TextView
+            android:id="@+id/tvOrders"
+            style="@style/RippleRoundBackground"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:drawablePadding="5dp"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="center_vertical"
+            android:includeFontPadding="false"
+            android:text="@string/bottomNavigation_item_orders"
+            android:textColor="@color/blackPrimary"
+            android:textSize="13sp"
+            app:drawableStartCompat="@drawable/ic_item_orders"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/tvCoupons"
+            app:layout_constraintHorizontal_chainStyle="spread"
+            app:layout_constraintStart_toEndOf="@+id/tvHome"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="SmallSp" />
+
+        <!-- Coupons -->
+        <TextView
+            android:id="@+id/tvCoupons"
+            style="@style/RippleRoundBackground"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:drawablePadding="5dp"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="center_vertical"
+            android:includeFontPadding="false"
+            android:text="@string/bottomNavigation_item_coupons"
+            android:textColor="@color/blackPrimary"
+            android:textSize="13sp"
+            app:drawableStartCompat="@drawable/ic_item_coupons"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/tvQRCode"
+            app:layout_constraintStart_toEndOf="@+id/tvOrders"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="SmallSp" />
+
+        <!-- QR code -->
+        <TextView
+            android:id="@+id/tvQRCode"
+            style="@style/RippleRoundBackground"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:drawablePadding="5dp"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="center_vertical"
+            android:includeFontPadding="false"
+            android:text="@string/bottomNavigation_item_qrcode"
+            android:textColor="@color/blackPrimary"
+            android:textSize="13sp"
+            app:drawableStartCompat="@drawable/ic_item_qrcode"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/tvCoupons"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="SmallSp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

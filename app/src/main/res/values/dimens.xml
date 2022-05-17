@@ -18,5 +18,7 @@
     <!-- Input Field: Base -->
     <dimen name="inputFieldBase_height">62dp</dimen>
 
+    <!-- Bottom Navigation -->
+    <dimen name="bottomNavigation_height">86dp</dimen>
 
 </resources>
