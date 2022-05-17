@@ -5,7 +5,7 @@ import android.view.ViewGroup
 import com.app_ghasla.databinding.FragmentSelectCarBinding
 import com.app_ghasla.ui.base.fragment.BaseFragment
 
-class SelectPackage: BaseFragment<FragmentSelectCarBinding>() {
+class SelectPackageFragment: BaseFragment<FragmentSelectCarBinding>() {
 
     override val bindingInflater: (LayoutInflater, ViewGroup?, Boolean) -> FragmentSelectCarBinding
         get() = FragmentSelectCarBinding::inflate

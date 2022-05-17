@@ -39,8 +39,8 @@
 
 
     <!-- Progress Indicator -->
-    <color name="progressIndicator">#1F51FF</color>
-    <color name="progressIndicator_background">#E3EEFF</color>
+    <color name="progressIndicator">#02E378</color>
+    <color name="progressIndicator_background">#BFF3DA</color>
 
     <!-- Create Order Screen -->
     <color name="createOrderScreen_title">#898989</color>

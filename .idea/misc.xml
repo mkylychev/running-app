@@ -34,6 +34,7 @@
         <entry key="app/src/main/res/layout/fragment_on_boarding.xml" value="0.19610507246376813" />
         <entry key="app/src/main/res/layout/fragment_select_car.xml" value="0.22506042480468752" />
         <entry key="app/src/main/res/layout/fragment_select_location.xml" value="0.1671654553227875" />
+        <entry key="app/src/main/res/layout/fragment_select_location_from_map.xml" value="0.165" />
         <entry key="app/src/main/res/layout/fragment_select_package.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_sign_in.xml" value="0.19610507246376813" />
         <entry key="app/src/main/res/layout/fragment_splash.xml" value="0.19610507246376813" />
