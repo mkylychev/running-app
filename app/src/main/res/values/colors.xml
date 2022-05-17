@@ -8,8 +8,11 @@
     <color name="yellow">#FFEA51</color>
     <color name="gray">#828386</color>
     <color name="grayOpacity">#9CA2B6</color>
+    <color name="grayOpacity2">#898989</color>
     <color name="grayDark">#344054</color>
     <color name="red">#FF647C</color>
+    <color name="darkBlue">#454E64</color>
+    <color name="lightGray">#E6EAF0</color>
 
     <!-- App -->
     <color name="appPrimary">#1F51FF</color>

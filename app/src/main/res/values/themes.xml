@@ -51,6 +51,6 @@
 
     <!-- Divider -->
     <style name="AppItemDivider">
-        <item name="android:background">@color/create_order_divider_background</item>
+        <item name="android:background">@color/lightGray</item>
     </style>
 </resources>
